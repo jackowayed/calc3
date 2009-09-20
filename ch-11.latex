@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\title{UD 243 CSW Chapter 11}
+\date{Fall 2009}
+\author{Daniel Jackoway}
+\begin{document}
+  \maketitle 
+  \section{1}
+    \subsection{a}
+      if $\vec{r} = \langle x, y, z \rangle$ and $\vec{r}_0 = \langle x_0, y_0, z_0 \rangle$, describe the set of all points (x,y,z) such that $\left| \vec{r} - \vec{r}_0 \right|$ = 1. 
+      
+  \section{2}
+    Compute $(\vec{a} - \vec{b}) \cdot (\vec{a} + \vec{b})$
+    \[
+      \vec{a} = \langle a_x, a_y, a_z \rangle
+    \]
+    \[
+      \vec{b} = \langle b_x, b_y, b_z \rangle
+    \]
+    \[
+      (\vec{a}-\vec{b}) = \langle a_x-b_x, a_y-b_y, a_z-b_z \rangle
+    \]
+    \[
+      (\vec{a}+\vec{b}) = \langle a_x+b_x, a_y+b_y, a_z+b_z \rangle
+    \]
+    \[
+      (\vec{a} - \vec{b}) \cdot (\vec{a} + \vec{b})
+      = 
+      \langle (a_x-b_x)(a_x+b_x), (a_y-b_y)(a_y+b_y), (a_z-b_z)(a_z+b_z) \rangle
+    \]
+    \[
+      =
+      \langle (a_x)^2 - (b_x)^2, (a_y)^2 - (b_y)^2, (a_z)^2 - (b_z)^2 \rangle
+    \]
+\end{document}
