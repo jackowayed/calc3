@@ -2,6 +2,7 @@
 \title{UD 243 CSW Chapter 11}
 \date{Fall 2009}
 \author{Daniel Jackoway}
+\usepackage{amssymb}
 \begin{document}
   \maketitle 
   \section{1}
@@ -30,5 +31,62 @@
     \[
       =
       \langle (a_x)^2 - (b_x)^2, (a_y)^2 - (b_y)^2, (a_z)^2 - (b_z)^2 \rangle
+    \]
+
+    6
+    \[
+      L_1: x=1+t, y=t, z=2-5t
+    \]
+    \[
+      L_2: x+1 = y-2 = 1-z
+    \]
+    \[
+      L_3: x=1+t, y=4+t, z=1-t
+    \]
+    \[
+      L_4: \vec{r} = \langle 2, 1, -3 \rangle + t\langle 2,2,-10 \rangle
+    \]
+    Everything to parametric:
+    \[
+      L_1: x=1+t, y=t, z=2-5t
+    \]
+    \[
+      L_2: x = 1+t, y = -2 + t, z = -1-t
+    \]
+    \[
+      L_3: x=1+t, y=4+t, z=1-t
+    \]
+    \[
+      L_4: x = 2+2t, y=1+2t, z=-3 - 10t
+    \]
+    parallel = direction vectors are scalar multiples. Direction vectors:
+    \[
+      L_1: \langle 1, 1, -5 \rangle,
+      L_2: \langle 1, 1, -1 \rangle,
+      L_3: \langle 1, 1, -1 \rangle,
+      L_4: \langle 2, 2, -10 \rangle
+    \]
+    $L_2$ and $L_3$ have the same direction vectors, so they're parallel. \\
+    $L_1$ and $L_4$ have scalar multiple direction vectors, so they're parallel. \\
+    Identical = parallel and sharing a point. \\
+    For $L_2$ and $L_3$: \\
+    set $L_2$'s t to 0:
+    \[
+      point = (1, -2, -1)
+    \]
+    \[
+      1+t = 1, 4+t = -2, 1-t = -1
+    \]
+    \[
+      1+t = 1 \rightarrow t=0 \rightarrow 4+0=-2
+    \]
+    which is false. $\therefore L_2 \neq L_3$ \\
+    For $L_1$ and $L_4$: \\
+    set $L_4$'s t to 0:
+    \[
+      2 = 1+t, 1 = -2+t, -3 = -1-t
+    \]
+    \[
+      2 = 1+t \rightarrow t=1 \rightarrow 1=-2+1 \rightarrow 3=1 \rightarrow false \therefore L_1 \neq L_4
     \]
 \end{document}
