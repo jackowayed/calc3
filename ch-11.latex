@@ -9,6 +9,15 @@
   \section{1}
     \subsection{a}
       if $\vec{r} = \langle x, y, z \rangle$ and $\vec{r}_0 = \langle x_0, y_0, z_0 \rangle$, describe the set of all points (x,y,z) such that $\left| \vec{r} - \vec{r}_0 \right|$ = 1. 
+
+      \[
+        \vec{r} - \vec{r}_0 = \langle x-x_0, y-y_0, z-z_0 \rangle
+      \]
+      \[
+        \left| \vec{r} - \vec{r}_0 \right| = \sqrt{(x-x_0)^2+(y-y_0)^2+(z-z_0)^2} = 1 = (x-x_0)^2+(y-y_0)^2+(z-z_0)^2
+      \]
+      This is the equation for a sphere with raidus 1, centered around $(x_0, y_0, z_0)$.
+
       
   \section{2}
     Compute $(\vec{a} - \vec{b}) \cdot (\vec{a} + \vec{b})$
