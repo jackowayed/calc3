@@ -3,6 +3,7 @@
 \date{Fall 2009}
 \author{Daniel Jackoway}
 \usepackage{amssymb}
+\setcounter{secnumdepth}{0}
 \begin{document}
   \maketitle 
   \section{1}
@@ -33,7 +34,7 @@
       \langle (a_x)^2 - (b_x)^2, (a_y)^2 - (b_y)^2, (a_z)^2 - (b_z)^2 \rangle
     \]
 
-    6
+  \section{6}
     \[
       L_1: x=1+t, y=t, z=2-5t
     \]
