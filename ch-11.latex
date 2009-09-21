@@ -18,6 +18,23 @@
       \]
       This is the equation for a sphere with raidus 1, centered around $(x_0, y_0, z_0)$.
 
+    \subsection{b}
+      if $\vec{r} = \langle x, y \rangle$, $\vec{r}_1 = \langle x_1, y_1 \rangle$, and $\vec{r}_2 = \langle x_2, y_2 \rangle$ describe the set of all points (x,y,z) such that $\left| \vec{r} - \vec{r}_1 \right|$ + $\left| \vec{r} - \vec{r}_2 \right| = k$, where $k > \left| \vec{r}_1 - \vec{r}_2 \right|$. 
+      Based on (a):
+      \[
+        \left| \vec{r} - \vec{r}_1 \right| + \left| \vec{r} - \vec{r}_2 \right| = k = \sqrt{(x-x_1)^2+(y-y_1)^2+(z-z_1)^2} + \sqrt{(x-x_2)^2+(y-y_2)^2+(z-z_2)^2}
+      \]
+      \[
+        k - \sqrt{(x-x_1)^2+(y-y_1)^2+(z-z_1)^2} = \sqrt{(x-x_2)^2+(y-y_2)^2+(z-z_2)^2}
+      \]
+      \[
+        k^2 - k\sqrt{(x-x_1)^2+(y-y_1)^2+(z-z_1)^2} + (x-x_1)^2+(y-y_1)^2+(z-z_1)^2
+      \]
+      \[
+        = (x-x_2)^2+(y-y_2)^2+(z-z_2)^2
+      \]
+
+
       
   \section{2}
     Compute $(\vec{a} - \vec{b}) \cdot (\vec{a} + \vec{b})$
