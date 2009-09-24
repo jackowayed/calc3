@@ -111,29 +111,29 @@
     \[
       x-1 = 0
     \]
-    Distance from the plane to arbitrary point $(x_0, y_0, z_0)$:
+    Distance from the plane to arbitrary point $(x, y, z)$:
     \[
-      D_1 = \frac{\left| x_0 + 0 + 0 -1\right|}{\sqrt{1^2+0^2+0^2}} = \left| x_0 -1\right|
+      D_1 = \frac{\left| x + 0 + 0 -1\right|}{\sqrt{1^2+0^2+0^2}} = \left| x -1\right|
     \]
-    Distance from point $(-1,0,0)$ to point $(x_0, y_0, z_0)$:
+    Distance from point $(-1,0,0)$ to point $(x, y, z)$:
     \[
-      D_2 = \sqrt{(x_0+1)^2 + (y_0)^2 + (z_0)^2}
+      D_2 = \sqrt{(x+1)^2 + (y)^2 + (z)^2}
     \]
     Curve is all points for which $D_1 = D_2$
     \[
-      \left| x_0 -1\right| = \sqrt{(x_0+1)^2 + (y_0)^2 + (z_0)^2}
+      \left| x -1\right| = \sqrt{(x+1)^2 + (y)^2 + (z)^2}
     \]
     \[
-      (x_0 -1)^2 = (x_0+1)^2 + (y_0)^2 + (z_0)^2
+      (x -1)^2 = (x+1)^2 + (y)^2 + (z)^2
     \]
     \[
-      (x_0)^2 -2x_0 + 1 = (x_0)^2 + 2x_0 + 1 + (y_0)^2 + (z_0)^2
+      (x)^2 -2x + 1 = (x)^2 + 2x + 1 + (y)^2 + (z)^2
     \]
     \[
-      -4x_0 = (y_0)^2 + (z_0)^2
+      -4x = (y)^2 + (z)^2
     \]
     \[
-     -x_0 = \frac{(y_0)^2}{4} + \frac{(z_0)^2}{4}
+     -x = \frac{(y)^2}{4} + \frac{(z)^2}{4}
     \]
-    Which is an elliptic parabaloid opening in the $-x$ direction. (Really $x_0 = x, y_0 = y, z_0 = z$)
+    Which is an elliptic parabaloid opening in the $-x$ direction.
 \end{document}
