@@ -104,4 +104,36 @@
     \[
       2 = 1+t \rightarrow t=1 \rightarrow 1=-2+1 \rightarrow 3=1 \rightarrow false \therefore L_1 \neq L_4
     \]
+  \section{8}
+    Surface equidstant from $(-1,0,0)$ and plane $x=1$ \\
+    That's just a 3-D version of the parabola geometric definition, so it's going to be one of the paraboloids, probably elliptic. \\
+    Plane in general form:
+    \[
+      x-1 = 0
+    \]
+    Distance from the plane to arbitrary point $(x_0, y_0, z_0)$:
+    \[
+      D_1 = \frac{\left| x_0 + 0 + 0 -1\right|}{\sqrt{1^2+0^2+0^2}} = \left| x_0 -1\right|
+    \]
+    Distance from point $(-1,0,0)$ to point $(x_0, y_0, z_0)$:
+    \[
+      D_2 = \sqrt{(x_0+1)^2 + (y_0)^2 + (z_0)^2}
+    \]
+    Curve is all points for which $D_1 = D_2$
+    \[
+      \left| x_0 -1\right| = \sqrt{(x_0+1)^2 + (y_0)^2 + (z_0)^2}
+    \]
+    \[
+      (x_0 -1)^2 = (x_0+1)^2 + (y_0)^2 + (z_0)^2
+    \]
+    \[
+      (x_0)^2 -2x_0 + 1 = (x_0)^2 + 2x_0 + 1 + (y_0)^2 + (z_0)^2
+    \]
+    \[
+      -4x_0 = (y_0)^2 + (z_0)^2
+    \]
+    \[
+     -x_0 = \frac{(y_0)^2}{4} + \frac{(z_0)^2}{4}
+    \]
+    Which is an elliptic parabaloid opening in the $-x$ direction. (Really $x_0 = x, y_0 = y, z_0 = z$)
 \end{document}
