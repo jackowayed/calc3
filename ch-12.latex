@@ -9,4 +9,6 @@
     \subsection{59}
     If $f$, $g$, and $h$ are first degree polynomial functions, then the curve given by $x=f(t), y=g(t), z=h(t)$ is a line. \\
     True. The curve will be given by $x=at+C_1, y=bt+C_2, z=dt+C_3$, which fits the parametric definition for a line. 
+    \subsection{60}
+    False. EXPLAIN
 \end{document}
