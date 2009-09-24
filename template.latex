@@ -1,0 +1,8 @@
+\documentclass[12pt]{article}
+\title{UD 243 CSW Chapter <insert chapter>}
+\date{Fall 2009}
+\author{Daniel Jackoway}
+\setcounter{secnumdepth}{0}
+\begin{document}
+  \maketitle
+\end{document}
