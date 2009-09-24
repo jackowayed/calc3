@@ -127,13 +127,13 @@
       (x -1)^2 = (x+1)^2 + (y)^2 + (z)^2
     \]
     \[
-      (x)^2 -2x + 1 = (x)^2 + 2x + 1 + (y)^2 + (z)^2
+      x^2 -2x + 1 = x^2 + 2x + 1 + y^2 + z^2
     \]
     \[
-      -4x = (y)^2 + (z)^2
+      -4x = y^2 + z^2
     \]
     \[
-     -x = \frac{(y)^2}{4} + \frac{(z)^2}{4}
+     -x = \frac{y^2}{4} + \frac{z^2}{4}
     \]
     Which is an elliptic parabaloid opening in the $-x$ direction.
 \end{document}
