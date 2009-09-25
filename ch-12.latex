@@ -11,4 +11,12 @@
     True. The curve will be given by $x=at+C_1, y=bt+C_2, z=dt+C_3$, which fits the parametric definition for a line. 
     \subsection{60}
     False. EXPLAIN
+  \section{section 2}
+    \subsection{33}
+    \[
+      \int(\sec^2(t)\hat{i} + \frac{1}{1+t^2}\hat{j})dt
+    \]
+    \[
+      = \tan(t)\hat{i} + \arctan(t)\hat{j} + \vec{C}
+    \]
 \end{document}
