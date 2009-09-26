@@ -2,6 +2,7 @@
 \title{UD 243 CSW Chapter 12}
 \date{Fall 2009}
 \author{Daniel Jackoway}
+\usepackage{amssymb}
 \setcounter{secnumdepth}{0}
 \begin{document}
   \maketitle
