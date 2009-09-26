@@ -22,4 +22,27 @@
     \]
     \subsection{53}
       False. $\left| \vec{r}(t) \right|$ is a scalar. Thus, $\frac{d}{dt} \left[ \left| \vec{r}(t) \right| \right] = 0$. Thus, this will be false any time time $\vec{r}\prime (t) \neq \vec{0}$
+  \section{section 3}
+    \subsection{25}
+      Baseball starts 3 feet above the ground, leaves at $45^\circ$ angle, caught 3 feet off ground 300 feet away. Initial speed? Max height?
+      \[\vec{r}(t) = \left(v_0 \cos \theta \right)t\hat{i} + \left[ h + \left(v_0 \sin \theta \right)t - \frac{1}{2}gt^2 \right]\hat{j} \]
+      \[\theta = \frac{\pi}{4}, h = 3, g = 32\]
+      \[\vec{r}(t) = \left(\frac{1}{\sqrt{2}}v_0 \right)t\hat{i} + \left[ 3 + \left(\frac{1}{\sqrt{2}}v_0 \right)t - 16t^2 \right]\hat{j} \]
+      And at some point this = $\langle 300, 3 \rangle$
+      \[ 300 = \left(\frac{1}{\sqrt{2}}v_0 \right)t, 3 = 3 + \left(\frac{1}{\sqrt{2}}v_0 \right)t - 16t^2\]
+      \[ t = \frac{300\sqrt{2}}{v_0}, 16t^2 = \left(\frac{1}{\sqrt{2}}v_0 \right)t \]
+      Substitute
+      \[ 16t^2 = 300 \rightarrow t = \sqrt{\frac{300}{16}} = \frac{5\sqrt{3}}{2} \approx 4.330 \]
+      \[ 300 = \left(\frac{1}{\sqrt{2}}v_0 \right)\frac{5\sqrt{3}}{2} \]
+      \[ v_0 = \frac{600\sqrt{2}}{5\sqrt{3}} = 40\sqrt{6} \approx 97.9796 \frac{ft}{s^2} \]
+      \[ \vec{r}(t) = \left(\frac{1}{\sqrt{2}} 40\sqrt{6} \right)t\hat{i} + \left[ 3 + \left(\frac{1}{\sqrt{2}}40\sqrt{6} \right)t - 16t^2 \right]\hat{j} \]
+      \[ \vec{r}(t) = \left(40\sqrt{3} \right)t\hat{i} + \left[ 3 + \left(40\sqrt{3} \right)t - 16t^2 \right]\hat{j} \]
+      Maximize height: differentiate $\hat{j}$ piece, solve for 0
+      \[ \frac{d}{dt} \left[ 3 + \left(40\sqrt{3} \right)t - 16t^2 \right]\hat{j} = \left[ 40\sqrt{3} - 32t \right]\hat{j} = \vec{0}\]
+      \[ 32t = 40\sqrt{3} \rightarrow t = \frac{40\sqrt{3}}{32} \]
+      \[ \frac{d}{dt}\left[ 40\sqrt{3} - 32t \right]\hat{j} = -32\hat{j}\]
+      The 2nd derivative of height ($\hat{j}$ component of $\vec{r}(t)$ is always negative. $\therefore$ height is always concave down. $\therefore$ all 0's of the derivative of height are maxima by the 2nd derivative rule. $\therefore$ height has a global maximum at its 1 zero, $t=\frac{40\sqrt{3}}{32}$. \\
+      Height at this point:
+      \[ \vec{r}\left(\frac{40\sqrt{3}}{32}\right) = \langle \frac{4800}{32}, 3 + \frac{4800}{32} -16\left( \frac{40\sqrt{3}}{32}\right)^2 \rangle \]
+      \[ \mbox{max height} = 3 + \frac{4800}{32}-16\frac{4800}{1024} = 78 \mbox{ft}\]
 \end{document}
