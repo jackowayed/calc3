@@ -19,4 +19,6 @@
     \[
       = \tan(t)\hat{i} + \arctan(t)\hat{j} + \vec{C}
     \]
+    \subsection{53}
+      False. $\left| \vec{r}(t) \right|$ is a scalar. Thus, $\frac{d}{dt} \left[ \left| \vec{r}(t) \right| \right] = 0$. Thus, this will be false any time time $\vec{r}\prime (t) \neq \vec{0}$
 \end{document}
