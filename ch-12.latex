@@ -60,6 +60,7 @@
       \[ t=2: a_T = \pi^2 \]
       \[ a_N = \sqrt{\left| \left| \vec{a} \right| \right|^2 - a_T^2} \]
       \[ \left| \left| \vec{a} \right| \right| = \sqrt{ \left(\pi^2 \cos \pi t - \pi^3 t \sin \pi t\right)^2 + \left(\pi^2 \sin \pi t + \pi^3 t \cos \pi t\right)^2} \]
-      \[ a_N = \sqrt{\left(\pi^2 \cos \pi t - \pi^3 t \sin \pi t\right)^2 + \left(\pi^2 \sin \pi t + \pi^3 t \cos \pi t\right)^2 + \left(\pi^2 - \cos \pi t \pi^3 t \sin \pi t + \sin \pi t \pi^3 t \cos \pi t\right)^2} \]
-      \[ t=1: a_N = \sqrt{\left(-\pi^2\right)^2+\left(-\pi^3\right)^2+\left(\pi^2\right)^2} = \sqrt{2\pi^4 + \pi^6} = \pi^2\sqrt{2+pi^2} \]
+      \[ a_N = \sqrt{\left(\pi^2 \cos \pi t - \pi^3 t \sin \pi t\right)^2 + \left(\pi^2 \sin \pi t + \pi^3 t \cos \pi t\right)^2 - \left(\pi^2 - \cos \pi t \pi^3 t \sin \pi t + \sin \pi t \pi^3 t \cos \pi t\right)^2} \]
+      \[ t=1: a_N = \sqrt{\left(-\pi^2\right)^2+\left(-\pi^3\right)^2-\left(\pi^2\right)^2} = \sqrt{\pi^6} = \pi^3 \]
+      \[ t=2: a_N = \sqrt{\left(\pi^2\right)^2 + \left(2\pi^3\right)^2 -\left(\pi^2\right)^2} = \sqrt{\left(2\pi^3\right)} = 2\pi^3 \]
 \end{document}
