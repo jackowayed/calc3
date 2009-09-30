@@ -47,6 +47,7 @@
       \[ \mbox{max height} = 3 + \frac{4800}{32}-16\frac{4800}{1024} = 78 \mbox{ft}\]
   \section{section 4}
     \subsection{26}
+    \subsubsection{a}
       \[ \vec{r} = \langle \cos \pi t + \pi t \sin \pi t, \sin \pi t - \pi t \cos \pi t \]
       \[ \vec{v} = \langle -\pi \sin \pi t + \pi \sin \pi t + \pi^2 t \cos \pi t, \pi \cos \pi t - \pi \cos \pi t + \pi^2 t \sin \pi t \rangle \]
       \[ = \langle \pi^2 t \cos \pi t, \pi^2 t \sin \pi t \rangle \]
@@ -63,4 +64,7 @@
       \[ a_N = \sqrt{\left(\pi^2 \cos \pi t - \pi^3 t \sin \pi t\right)^2 + \left(\pi^2 \sin \pi t + \pi^3 t \cos \pi t\right)^2 - \left(\pi^2 - \cos \pi t \pi^3 t \sin \pi t + \sin \pi t \pi^3 t \cos \pi t\right)^2} \]
       \[ t=1: a_N = \sqrt{\left(-\pi^2\right)^2+\left(-\pi^3\right)^2-\left(\pi^2\right)^2} = \sqrt{\pi^6} = \pi^3 \]
       \[ t=2: a_N = \sqrt{\left(\pi^2\right)^2 + \left(2\pi^3\right)^2 -\left(\pi^2\right)^2} = \sqrt{\left(2\pi^3\right)} = 2\pi^3 \]
+      \subsubsection{b}
+      \[ a_T = D_t\left[\left| \left| \vec{v} \right| \right|\right] \]
+      For $t=1$ and $t=2, a_T = \pi^2$. Since the derivative of the speed is positive for both $t=1$ and $t=2$, the speed is increasing at both points. 
 \end{document}
