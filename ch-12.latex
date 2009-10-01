@@ -42,7 +42,7 @@
       Substitute
       \[ 16t^2 = 300 \rightarrow t = \sqrt{\frac{300}{16}} = \frac{5\sqrt{3}}{2} \approx 4.330 \]
       \[ 300 = \left(\frac{1}{\sqrt{2}}v_0 \right)\frac{5\sqrt{3}}{2} \]
-      \[ v_0 = \frac{600\sqrt{2}}{5\sqrt{3}} = 40\sqrt{6} \approx 97.9796 \frac{ft}{s^2} \]
+      \[ v_0 = \frac{600\sqrt{2}}{5\sqrt{3}} = 40\sqrt{6} \approx 97.9796 \frac{ft}{s} \]
       \[ \vec{r}(t) = \left(\frac{1}{\sqrt{2}} 40\sqrt{6} \right)t\hat{i} + \left[ 3 + \left(\frac{1}{\sqrt{2}}40\sqrt{6} \right)t - 16t^2 \right]\hat{j} \]
       \[ \vec{r}(t) = \left(40\sqrt{3} \right)t\hat{i} + \left[ 3 + \left(40\sqrt{3} \right)t - 16t^2 \right]\hat{j} \]
       Maximize height: differentiate $\hat{j}$ piece, solve for 0
