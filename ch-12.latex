@@ -72,6 +72,10 @@
         \[ \vec{r}(t)=a\cos \omega t \hat{i} + a \sin \omega t \hat{j} \]
         \[ \vec{v}(t) = -a\omega\sin \omega t \hat{i} + a \omega \cos \omega t \hat{j} \]
         \[ \vec{a}(t) = -a\omega^2\cos \omega t \hat{i} - a \omega^2 \sin \omega t \hat{j} \]
-        \[ a_N = \frac{\left| \left| \vec{v} \times \vec{a} \right|\right|}{\left| \left| \vec{v} \right| \right|} = \frac{\sqrt{a^2\omega^3\sin^2\omega t + a^2\omega^3\cos^2\omega t}}{-a\omega^2} = \frac{a\omega\sqrt{\omega}}{-a\omega^2} = \frac{\sqrt{\omega}}{\omega} \]
-        \[ a_N = \sqrt{\left|\left|\vec{a}\right|\right|^2 - a_T^2} \]
+        \[ \left| \left| \vec{v} \right| \right| = \sqrt{a^2\omega^2\left(\sin^2\omega t + \cos^2 \omega t \right)} = a\omega\]
+        \[ a_T = D_T\left[ \left|\left| \vec{v} \right|\right|\right] = 0 \]
+        \[ a_N = \sqrt{\left|\left|\vec{a}\right|\right|^2 - a_T^2} = \left|\left|\vec{a}\right|\right| = \sqrt{a^2\omega^4(\cos^2 \omega t + \sin^2 \omega t)} = a\omega^2 \]
+        Doubling $\omega$ would quadruple $a_N$.
+      \subsubsection{b}
+          Reducing the length of the string by half means halving the radius, which means halving $a$, which would halve $a_N$.
 \end{document}
