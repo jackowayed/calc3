@@ -21,6 +21,15 @@
     \[
       = \tan(t)\hat{i} + \arctan(t)\hat{j} + \vec{C}
     \]
+    \subsection{34}
+      \[\int(e^{-t}\sin(t)\hat{i}+e^{-t}\cos(t)\hat{j})dt\]
+      $\int e^{-t}\sin(t)dt$. Use parts:
+      \[dv=e^{-t}dt, v=-e^{-t}, u=\sin t, du=\cos t dt\]
+      \[\int e^{-t}\sin(t)dt = -e^{-t}\sin t + \int e^{-t}\cos t dt \]
+      \[ dv = e^{-t}dt, v = -e^{-t}, u = \cos t, du = -\sin t dt \]
+      \[\int e^{-t}\sin(t)dt = -e^{-t}\sin t -e^{-t}\cos t - \int e^{-t}\sin t dt \]
+      \[2\int e^{-t}\sin(t)dt = -e^{-t}\sin t -e^{-t}\cos t \]
+      \[\int e^{-t}\sin(t)dt = \frac{-e^{-t}\sin t -e^{-t}\cos t}{2} \]
     \subsection{53}
       \[ \frac{d}{dt} \left[ \left|\left|\vec{r}(t)\right|\right| \right] = \left|\left| \vec{r}\prime(t) \right|\right| \mbox{?} \]
       \[ \frac{d}{dt} \sqrt{x^2 + y^2 + z^2} = \sqrt{x\prime(t)^2 + y\prime(t)^2 + z\prime(t)^2} \]
