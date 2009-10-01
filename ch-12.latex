@@ -83,4 +83,10 @@
        \[ F = \frac{mv^2}{r} = \frac{GMm}{r^2} \]
        \[ v^2 = \frac{GMmr}{mr^2} = \frac{GM}{r} \]
        \[ v = \sqrt \frac{GM}{r}, \mbox{QED} \]
+     \section{Section 5}
+     \subsection{49}
+       \[ y\prime = 3(x-1)^2, y\prime\prime = 6(x-1) \]
+       \[ K = \frac{\left| y \prime\prime\right|}{\left[ 1 + (y\prime)^2\right]^{3/2}} \]
+       \[ K = \frac{\left|6(x-1)\right|}{\left(1 + 9(x-1)^4\right)^{3/2}} \]
+       When $x=1$, $K=0$
 \end{document}
