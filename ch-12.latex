@@ -11,7 +11,8 @@
     If $f$, $g$, and $h$ are first degree polynomial functions, then the curve given by $x=f(t), y=g(t), z=h(t)$ is a line. \\
     True. The curve will be given by $x=at+C_1, y=bt+C_2, z=dt+C_3$, which fits the parametric definition for a line. 
     \subsection{60}
-    False. EXPLAIN
+    If $x=f(t), y=g(t), z=h(t)$ is a line, then f, g, and h are first-degree polynomial functions of t.\\
+    True-ish. $x=t^3, y=t^3, z=t^3$ is still a line, but that's just an issue of the parameterization. Other than cheating like that (subbing any function with a domain of all real numbers in for t), it's true. 
   \section{section 2}
     \subsection{33}
     \[
