@@ -87,7 +87,7 @@
       \subsubsection{b}
           Reducing the length of the string by half means halving the radius, which means halving $a$, which would halve $a_N$.
      \subsection{39}
-       $d = r$ because the distance between the center and the object is the radius. (M in this case is mass of the object in the center).
+       $d = r$ because the distance between the center and the object is the radius. (M in this case is mass of the object in the center of the ``orbit'').
        \[ F = \frac{mv^2}{r} = \frac{GMm}{r^2} \]
        \[ v^2 = \frac{GMmr}{mr^2} = \frac{GM}{r} \]
        \[ v = \sqrt \frac{GM}{r}, \mbox{QED} \]
