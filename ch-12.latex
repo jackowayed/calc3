@@ -22,7 +22,14 @@
       = \tan(t)\hat{i} + \arctan(t)\hat{j} + \vec{C}
     \]
     \subsection{53}
-      False. $\left| \vec{r}(t) \right|$ is a scalar. Thus, $\frac{d}{dt} \left[ \left| \vec{r}(t) \right| \right] = 0$. Thus, this will be false any time time $\vec{r}\prime (t) \neq \vec{0}$
+      \[ \frac{d}{dt} \left[ \left|\left|\vec{r}(t)\right|\right| \right] = \left|\left| \vec{r}\prime(t) \right|\right| \mbox{?} \]
+      \[ \frac{d}{dt} \sqrt{x^2 + y^2 + z^2} = \sqrt{x\prime(t)^2 + y\prime(t)^2 + z\prime(t)^2} \]
+      Which is usually false. Example:
+      \[ \vec{r}(t) = \langle t, 5 \rangle \]
+      \[ \vec{r}\prime(t) = \langle 1, 0 \rangle \]
+      \[ \frac{d}{dt} \sqrt{t^2+25} = \sqrt{1^2 + 0^2} \]
+      \[ \frac{t}{\sqrt{t^2+25}} = 1 \rightarrow t = \sqrt{t^2+25} \rightarrow t^2 = t^2 + 25 \rightarrow 25 = 0\]
+      Which happens to always be false. So the statement is false.
   \section{section 3}
     \subsection{25}
       Baseball starts 3 feet above the ground, leaves at $45^\circ$ angle, caught 3 feet off ground 300 feet away. Initial speed? Max height?
