@@ -18,4 +18,19 @@
         \end{array}
         \right. \]
       is continous for all values but $(0,0)$, and $f\left(0,0\right) = 0$, but $\lim_{\left(x,y\right)\to\left(0,0\right)} = 1$
+    \subsection{49}
+      Consider all straight line paths through the point (save the line $x=0$): $y=mx$
+      \[
+        \lim_{x\to0} \frac{x(mx)^3}{x^2+2(mx)^6}
+        = \lim_{x\to0} \frac{m^3x^4}{x^2+2m^62x^6}
+        = \lim_{x\to0} \frac{m^3x^2}{1+2m^62x^4}
+      \]
+      \[ \lim_{x\to0} m^3x^2 = 0;
+      \lim_{x\to0} \left(1+2m^62x^4\right) = 1 \]
+      \[\lim_{x\to0} \frac{x(mx)^3}{x^2+2(mx)^6} = 0 \]
+      Polarize:
+      \[ \lim_{r\to0} \frac{r\cos\theta r^3 \sin^3 \theta}{r^2\cos^2\theta + 2r^6\sin^6\theta}
+      = \lim_{r\to0} \frac{r^2\cos\theta \sin^3 \theta}{\cos^2\theta + 2r^4\sin^6\theta} = \frac{0}{\cos^2\theta} \]
+      %%Finish this
+
 \end{document}
