@@ -1,0 +1,21 @@
+\documentclass[12pt]{article}
+\title{UD 243 CSW Chapter 13}
+\date{Fall 2009}
+\author{Daniel Jackoway}
+\setcounter{secnumdepth}{0}
+\begin{document}
+  \maketitle
+  \section{section 1}
+    \subsection{53}
+      No. it could wave up and down circularly, if that makes sense. For example, if the level curve with radius $r=1$ were for $z=1$, and the level curve with $r=2$ were for $z=10$ and the level curve for $r=3$ were for $z=2$, it would go up and down. All that means is that the figure has complete rotational symmetry when rotating along circles in the x-y plane.
+  \section{section 2}
+    \subsection{47}
+      False. The fuction 
+      \[ f\left(x,y\right) = \left\{
+        \begin{array}{lr} 
+          1 & , x \neq 0, y \neq 0 \\
+          0 & , x = 0, y = 0
+        \end{array}
+        \right. \]
+      is continous for all values but $(0,0)$, and $f\left(0,0\right) = 0$, but $\lim_{\left(x,y\right)\to\left(0,0\right)} = 1$
+\end{document}
