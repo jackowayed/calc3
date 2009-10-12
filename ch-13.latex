@@ -48,4 +48,5 @@
          = \lim_{\Delta x \to 0}\frac{0}{\Delta x}
          = \lim_{\Delta x \to 0}\frac{0}{1} = 0\]
        \subsubsection{c}
+         %% Finish
 \end{document}
