@@ -30,8 +30,9 @@
       \[\lim_{x\to0} \frac{x(mx)^3}{x^2+2(mx)^6} = 0 \]
       Polarize:
       \[ \lim_{r\to0} \frac{r\cos\theta r^3 \sin^3 \theta}{r^2\cos^2\theta + 2r^6\sin^6\theta}
-      = \lim_{r\to0} \frac{r^2\cos\theta \sin^3 \theta}{\cos^2\theta + 2r^4\sin^6\theta} = \frac{0}{\cos^2\theta} \]
-      %%Finish this
+      = \lim_{r\to0} \frac{r^2\cos\theta \sin^3 \theta}{\cos^2\theta + 2r^4\sin^6\theta} = \frac{0}{\cos^2\theta}
+      = 0, \cos \theta \neq 0 \]
+      BUT if $\cos \theta = 0$, then computing it would require dividing by 0, so the limit is undefined when $\cos \theta = 0$, so the limit is not always the same for all paths, so it does not exist. 
   \section{section 3}
     \subsection{74}
       \subsubsection{a}
