@@ -2,6 +2,7 @@
 \title{UD 243 CSW Chapter 13}
 \date{Fall 2009}
 \author{Daniel Jackoway}
+\usepackage{amssymb}
 \setcounter{secnumdepth}{0}
 \begin{document}
   \maketitle
@@ -49,4 +50,13 @@
          = \lim_{\Delta x \to 0}\frac{0}{1} = 0\]
        \subsubsection{c}
          %% Finish
+     \subsection{79}
+       \[T = \frac{PV}{nR}\]
+       \[\frac{\delta T}{\delta P} = \frac{V}{nR}\]
+       \[P = \frac{nRT}{V}\]
+       \[\frac{\delta P}{\delta V} = \frac{-nRT}{V^2}\]
+       \[V = \frac{nRT}{P}\]
+       \[\frac{\delta V}{\delta T}=\frac{nR}{P}\]
+       \[\frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = \frac{V(-nRT)nR}{nRV^2P} = -\frac{nRT}{VP}\]
+       \[PV=nRT \rightarrow 1=\frac{nRT}{PV} \therefore \frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = -1\]
 \end{document}
