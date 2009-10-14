@@ -59,4 +59,10 @@
        \[\frac{\delta V}{\delta T}=\frac{nR}{P}\]
        \[\frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = \frac{V(-nRT)nR}{nRV^2P} = -\frac{nRT}{VP}\]
        \[PV=nRT \rightarrow 1=\frac{nRT}{PV} \therefore \frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = -1\]
+     \subsection{80}
+       \[f(x,y)=\int_x^y \sqrt{1+t^3}dt \]
+       By the second fundamental theorem,
+       \[\frac{\delta f}{\delta y} = \sqrt{1+y^3}\]
+       Can use the second fundamental theorem for x by rewriting:
+       \[\frac{\delta f}{\delta x} = \frac{\delta}{\delta x} \int_x^y \sqrt{1+t^3}dt = - \frac{\delta}{\delta x} \int_y^x \sqrt{1+t^3}dt = -\sqrt{1+x^3}\]
 \end{document}
