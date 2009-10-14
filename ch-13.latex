@@ -77,4 +77,21 @@
        \[ \Delta R_1 = 0.5, \Delta R_2 = -2 \]
        \[ \Delta R = f_{R_1}(10, 15)\Delta R_1 + f_{R_2}(10, 15)\Delta R_2 = \frac{9}{25}(.5) + \frac{4}{25}(-2) = -\frac{7}{50}\]
        \[ R(10.5,14) \approx R_{initial} + \Delta R = 6 - \frac{7}{50} = \frac{293}{50} \]
+     \subsection{38}
+       \[f_x = \lim_{\Delta x \to 0} \frac{f(\Delta x,0)-f(0,0)}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{\frac{2\Delta x^2\cdot 0}{\Delta x^4+0}-0}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{\frac{0}{\Delta x^4}}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{0}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{0}{1} = 0\]
+       \[f_y = \lim_{\Delta y \to 0} \frac{f(0,\Delta y)-f(0,0)}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{\frac{2\Delta y^2\cdot 0}{0+\Delta y^4} -0}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{\frac{0}{\Delta y^4}}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{\frac{0}{\Delta 1}}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{0}{1} = 0\]
+       But to be differentiable, f must also be continuous. Consider straight-line paths through the origin:
+       \[ y=mx\]
+       \[\lim_{x \to 0}\frac{2x^2(mx)^2}{x^4+(mx)^4}
+       = \lim_{x \to 0}\frac{2m^2x^4}{x^4+m^4x^4}
+       = \frac{2m^2}{1+m^4}\]
+       which varies with m, so most different paths have different limits at the origin, so f is not continuous, and thus not differentiable, at $(x,y)=(0,0)$.
 \end{document}
