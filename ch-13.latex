@@ -29,7 +29,7 @@
       \[ \lim_{x\to0} m^3x^2 = 0;
       \lim_{x\to0} \left(1+2m^62x^4\right) = 1 \]
       \[\lim_{x\to0} \frac{x(mx)^3}{x^2+2(mx)^6} = 0 \]
-      Polarize:
+      Polarize (yes, I know that's not what it means):
       \[ \lim_{r\to0} \frac{r\cos\theta r^3 \sin^3 \theta}{r^2\cos^2\theta + 2r^6\sin^6\theta}
       = \lim_{r\to0} \frac{r^2\cos\theta \sin^3 \theta}{\cos^2\theta + 2r^4\sin^6\theta} = \frac{0}{\cos^2\theta}
       = 0, \cos \theta \neq 0 \]
