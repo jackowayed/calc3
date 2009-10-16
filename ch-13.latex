@@ -80,7 +80,8 @@
        \[f_{R_1}(10, 15) = \left(\frac{1}{10}+\frac{1}{15}\right)^{-2}15^{-2} = \frac{4}{25} \]
        \[ \Delta R_1 = 0.5, \Delta R_2 = -2 \]
        \[ \Delta R = f_{R_1}(10, 15)\Delta R_1 + f_{R_2}(10, 15)\Delta R_2 = \frac{9}{25}(.5) + \frac{4}{25}(-2) = -\frac{7}{50}\]
-       \[ R(10.5,14) \approx R_{initial} + \Delta R = 6 - \frac{7}{50} = \frac{293}{50} \]
+       \[ R(10.5,13) \approx R_{initial} + \Delta R = 6 - \frac{7}{50} = \frac{293}{50} \]
+       You got your values of partial derivatives backwards. In yours, the numerator of $\frac{\partial R}{\partial R_1}$ has $R_2^2$ as the numerator and vice versa. You plugged in the $R_1$ value for the $R_1$ partial derivative and $R_2$ for the $R_2$ one. I hope. 
      \subsection{38}
        \[f_x = \lim_{\Delta x \to 0} \frac{f(\Delta x,0)-f(0,0)}{\Delta x}
        = \lim_{\Delta x \to 0} \frac{\frac{2\Delta x^2\cdot 0}{\Delta x^4+0}-0}{\Delta x}
