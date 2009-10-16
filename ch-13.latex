@@ -102,4 +102,15 @@
        = - \frac{2x}{2z}=\frac{x}{z}\]
        \[ \frac{\partial z}{\partial y} = -\frac{F_y(x,y,z)}{F_z(x,y,z)}
        = - \frac{2y}{2z}=\frac{y}{z}\]
+     \subsection{46}
+       Show that $u(x,t)=\frac{1}{2}\left[f(x-ct)+f(x+ct)\right]$ is a solution to
+       \[\frac{\partial^2u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}\]
+       \[\frac{\partial u}{\partial x} = \frac{1}{2}\left[f'(x-ct)+f'(x+ct)\right]\]
+       \[\frac{\partial^2 u}{\partial x^2} = \frac{1}{2}\left[f''(x-ct)+f''(x+ct)\right]\]
+       \[\frac{\partial u}{\partial t} = \frac{1}{2}\left[-cf'(x-ct)+cf'(x+ct)\right]
+       = \frac{1}{2}c\left[-f'(x-ct)+f'(x+ct)\right] \]
+       \[\frac{\partial^2u}{\partial t^2} = \frac{1}{2}c\left[cf''(x-ct)+cf'(x+ct)\right]
+       = \frac{1}{2}c^2\left[f''(x-ct)+f''(x+ct)\right] \]
+       \[ \left[f''(x-ct)+f''(x+ct)\right] = \frac{\partial^2u}{\partial x^2} \]
+       \[ \frac{\partial^2u}{\partial t^2} = c^2 \frac{\partial^2u}{\partial x^2} \mbox{, QED} \]
 \end{document}
