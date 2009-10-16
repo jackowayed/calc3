@@ -61,6 +61,8 @@
          = \frac{\frac{\Delta y(-\Delta y)^2\Delta y^2}{\Delta y^4}-0}{\Delta y}
          = \frac{-\Delta y}{\Delta y}
          = -1\]
+       \subsection{d}
+         Since $f_{xy}(0,0) \neq f_{yx}(0,0)$, there is no open disk including (0,0) such that $f_{xy}$ and $f_{yx}$ are both continuous.
      \subsection{79}
        \[T = \frac{PV}{nR}\]
        \[\frac{\partial T}{\partial P} = \frac{V}{nR}\]
