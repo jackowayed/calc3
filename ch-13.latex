@@ -48,6 +48,10 @@
          = \lim_{\Delta x \to 0}\frac{\frac{0}{2} - 0}{\Delta x}
          = \lim_{\Delta x \to 0}\frac{0}{\Delta x}
          = \lim_{\Delta x \to 0}\frac{0}{1} = 0\]
+         \[f_y(0,0) = \lim_{\Delta y \to 0} \frac{f(0, \Delta y)-f(0,0)}{\Delta y}
+         = \lim_{\Delta y \to 0} \frac{\frac{0}{\Delta y^2}}{\Delta y}
+         = \lim_{\Delta y \to 0} \frac{0}{\Delta y}
+         = 0\]
        \subsubsection{c}
          %% Finish
      \subsection{79}
