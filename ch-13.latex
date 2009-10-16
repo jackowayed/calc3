@@ -56,19 +56,19 @@
          %% Finish
      \subsection{79}
        \[T = \frac{PV}{nR}\]
-       \[\frac{\delta T}{\delta P} = \frac{V}{nR}\]
+       \[\frac{\partial T}{\partial P} = \frac{V}{nR}\]
        \[P = \frac{nRT}{V}\]
-       \[\frac{\delta P}{\delta V} = \frac{-nRT}{V^2}\]
+       \[\frac{\partial P}{\partial V} = \frac{-nRT}{V^2}\]
        \[V = \frac{nRT}{P}\]
-       \[\frac{\delta V}{\delta T}=\frac{nR}{P}\]
-       \[\frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = \frac{V(-nRT)nR}{nRV^2P} = -\frac{nRT}{VP}\]
-       \[PV=nRT \rightarrow 1=\frac{nRT}{PV} \therefore \frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = -1\]
+       \[\frac{\partial V}{\partial T}=\frac{nR}{P}\]
+       \[\frac{\partial T}{\partial P} \frac{\partial P}{\partial V} \frac{\partial V}{\partial T} = \frac{V(-nRT)nR}{nRV^2P} = -\frac{nRT}{VP}\]
+       \[PV=nRT \rightarrow 1=\frac{nRT}{PV} \therefore \frac{\partial T}{\partial P} \frac{\partial P}{\partial V} \frac{\partial V}{\partial T} = -1\]
      \subsection{80}
        \[f(x,y)=\int_x^y \sqrt{1+t^3}dt \]
        By the second fundamental theorem,
-       \[\frac{\delta f}{\delta y} = \sqrt{1+y^3}\]
+       \[\frac{\partial f}{\partial y} = \sqrt{1+y^3}\]
        Can use the second fundamental theorem for x by rewriting:
-       \[\frac{\delta f}{\delta x} = \frac{\delta}{\delta x} \int_x^y \sqrt{1+t^3}dt = - \frac{\delta}{\delta x} \int_y^x \sqrt{1+t^3}dt = -\sqrt{1+x^3}\]
+       \[\frac{\partial f}{\partial x} = \frac{\partial}{\partial x} \int_x^y \sqrt{1+t^3}dt = - \frac{\partial}{\partial x} \int_y^x \sqrt{1+t^3}dt = -\sqrt{1+x^3}\]
    \section{section 4}
      \subsection{30}
        \[R(R_1, R_2)=\left(\frac{1}{R_1}+\frac{1}{R_2}\right)^{-1}\]
