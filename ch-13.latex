@@ -41,54 +41,53 @@
        \[ = \frac{y\left(\left(x^2-y^2 + 2x^2\right)\left(x^2+y^2\right)-2x^2\left(x^2-y^2\right)\right)}{\left(x^2+y^2\right)}\]
        \[ f_y(x,y), (x,y) \neq (0,0), = \frac{\left(x\left(x^2-y^2\right)-xy2y\right)\left(x^2+y^2\right) - xy(x^2-y^2)2y}{(x^2+y^2)^2}\]
        \subsubsection{b}
-         \[f_x(0,0) = \lim_{\partial x \to 0} \frac{f(\partial x, 0)-f(0,0)}{\partial x}
-         = \lim_{\partial x \to 0}\frac{\frac{\partial x0(\partial x^2-0)}{\partial x^2+0^2} - 0}{\partial x}\]
+         \[f_x(0,0) = \lim_{\Delta x \to 0} \frac{f(\Delta x, 0)-f(0,0)}{\Delta x}
+         = \lim_{\Delta x \to 0}\frac{\frac{\Delta x0(\Delta x^2-0)}{\Delta x^2+0^2} - 0}{\Delta x}\]
          L'Hopital the top, then whole thing.
-         \[= \lim_{\partial x \to 0}\frac{\frac{0}{2\partial x} - 0}{\partial x}
-         = \lim_{\partial x \to 0}\frac{\frac{0}{2} - 0}{\partial x}
-         = \lim_{\partial x \to 0}\frac{0}{\partial x}
-         = \lim_{\partial x \to 0}\frac{0}{1} = 0\]
-         %% Do f_y
+         \[= \lim_{\Delta x \to 0}\frac{\frac{0}{2\Delta x} - 0}{\Delta x}
+         = \lim_{\Delta x \to 0}\frac{\frac{0}{2} - 0}{\Delta x}
+         = \lim_{\Delta x \to 0}\frac{0}{\Delta x}
+         = \lim_{\Delta x \to 0}\frac{0}{1} = 0\]
        \subsubsection{c}
          %% Finish
      \subsection{79}
        \[T = \frac{PV}{nR}\]
-       \[\frac{\partial T}{\partial P} = \frac{V}{nR}\]
+       \[\frac{\delta T}{\delta P} = \frac{V}{nR}\]
        \[P = \frac{nRT}{V}\]
-       \[\frac{\partial P}{\partial V} = \frac{-nRT}{V^2}\]
+       \[\frac{\delta P}{\delta V} = \frac{-nRT}{V^2}\]
        \[V = \frac{nRT}{P}\]
-       \[\frac{\partial V}{\partial T}=\frac{nR}{P}\]
-       \[\frac{\partial T}{\partial P} \frac{\partial P}{\partial V} \frac{\partial V}{\partial T} = \frac{V(-nRT)nR}{nRV^2P} = -\frac{nRT}{VP}\]
-       \[PV=nRT \rightarrow 1=\frac{nRT}{PV} \therefore \frac{\partial T}{\partial P} \frac{\partial P}{\partial V} \frac{\partial V}{\partial T} = -1\]
+       \[\frac{\delta V}{\delta T}=\frac{nR}{P}\]
+       \[\frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = \frac{V(-nRT)nR}{nRV^2P} = -\frac{nRT}{VP}\]
+       \[PV=nRT \rightarrow 1=\frac{nRT}{PV} \therefore \frac{\delta T}{\delta P} \frac{\delta P}{\delta V} \frac{\delta V}{\delta T} = -1\]
      \subsection{80}
        \[f(x,y)=\int_x^y \sqrt{1+t^3}dt \]
        By the second fundamental theorem,
-       \[\frac{\partial f}{\partial y} = \sqrt{1+y^3}\]
+       \[\frac{\delta f}{\delta y} = \sqrt{1+y^3}\]
        Can use the second fundamental theorem for x by rewriting:
-       \[\frac{\partial f}{\partial x} = \frac{\partial}{\partial x} \int_x^y \sqrt{1+t^3}dt = - \frac{\partial}{\partial x} \int_y^x \sqrt{1+t^3}dt = -\sqrt{1+x^3}\]
+       \[\frac{\delta f}{\delta x} = \frac{\delta}{\delta x} \int_x^y \sqrt{1+t^3}dt = - \frac{\delta}{\delta x} \int_y^x \sqrt{1+t^3}dt = -\sqrt{1+x^3}\]
    \section{section 4}
      \subsection{30}
        \[R(R_1, R_2)=\left(\frac{1}{R_1}+\frac{1}{R_2}\right)^{-1}\]
        Initial condition: $R_1=10, R_2=15, R = (\frac{1}{10}+\frac{1}{15})^{-1} = 6$\\
-       \[\partial z = f_{R_1}(10, 15)\partial R_1 + f_{R_2}(10, 15)\partial R_2\]
+       \[\Delta z = f_{R_1}(10, 15)\Delta R_1 + f_{R_2}(10, 15)\Delta R_2\]
        \[f_{R_1}(R_1, R_2) = \left(\frac{1}{R_1}+\frac{1}{R_2}\right)^{-2}R_1^{-2} \]
        \[f_{R_1}(10, 15) = \left(\frac{1}{10}+\frac{1}{15}\right)^{-2}10^{-2} = \frac{9}{25} \]
        \[f_{R_2}(R_1, R_2) = \left(\frac{1}{R_1}+\frac{1}{R_2}\right)^{-2}R_2^{-2} \]
        \[f_{R_1}(10, 15) = \left(\frac{1}{10}+\frac{1}{15}\right)^{-2}15^{-2} = \frac{4}{25} \]
-       \[ \partial R_1 = 0.5, \partial R_2 = -2 \]
-       \[ \partial R = f_{R_1}(10, 15)\partial R_1 + f_{R_2}(10, 15)\partial R_2 = \frac{9}{25}(.5) + \frac{4}{25}(-2) = -\frac{7}{50}\]
-       \[ R(10.5,14) \approx R_{initial} + \partial R = 6 - \frac{7}{50} = \frac{293}{50} \]
+       \[ \Delta R_1 = 0.5, \Delta R_2 = -2 \]
+       \[ \Delta R = f_{R_1}(10, 15)\Delta R_1 + f_{R_2}(10, 15)\Delta R_2 = \frac{9}{25}(.5) + \frac{4}{25}(-2) = -\frac{7}{50}\]
+       \[ R(10.5,14) \approx R_{initial} + \Delta R = 6 - \frac{7}{50} = \frac{293}{50} \]
      \subsection{38}
-       \[f_x = \lim_{\partial x \to 0} \frac{f(\partial x,0)-f(0,0)}{\partial x}
-       = \lim_{\partial x \to 0} \frac{\frac{2\partial x^2\cdot 0}{\partial x^4+0}-0}{\partial x}
-       = \lim_{\partial x \to 0} \frac{\frac{0}{\partial x^4}}{\partial x}
-       = \lim_{\partial x \to 0} \frac{0}{\partial x}
-       = \lim_{\partial x \to 0} \frac{0}{1} = 0\]
-       \[f_y = \lim_{\partial y \to 0} \frac{f(0,\partial y)-f(0,0)}{\partial y}
-       = \lim_{\partial y \to 0} \frac{\frac{2\partial y^2\cdot 0}{0+\partial y^4} -0}{\partial y}
-       = \lim_{\partial y \to 0} \frac{\frac{0}{\partial y^4}}{\partial y}
-       = \lim_{\partial y \to 0} \frac{\frac{0}{\partial 1}}{\partial y}
-       = \lim_{\partial y \to 0} \frac{0}{1} = 0\]
+       \[f_x = \lim_{\Delta x \to 0} \frac{f(\Delta x,0)-f(0,0)}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{\frac{2\Delta x^2\cdot 0}{\Delta x^4+0}-0}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{\frac{0}{\Delta x^4}}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{0}{\Delta x}
+       = \lim_{\Delta x \to 0} \frac{0}{1} = 0\]
+       \[f_y = \lim_{\Delta y \to 0} \frac{f(0,\Delta y)-f(0,0)}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{\frac{2\Delta y^2\cdot 0}{0+\Delta y^4} -0}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{\frac{0}{\Delta y^4}}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{\frac{0}{\Delta 1}}{\Delta y}
+       = \lim_{\Delta y \to 0} \frac{0}{1} = 0\]
        But to be differentiable, f must also be continuous. Consider straight-line paths through the origin:
        \[ y=mx\]
        \[\lim_{x \to 0}\frac{2x^2(mx)^2}{x^4+(mx)^4}
