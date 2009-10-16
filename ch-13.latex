@@ -53,7 +53,14 @@
          = \lim_{\Delta y \to 0} \frac{0}{\Delta y}
          = 0\]
        \subsubsection{c}
-         %% Finish
+         \[ f_{yx}(0,0)=\lim_{\Delta x \to 0} \frac{f_y(\Delta x, 0) - f_y(0,0)}{\Delta x}
+         = \lim_{\Delta x \to 0} \frac{ \frac{\Delta x (\Delta x^2-0)(\Delta x^2+0)}{\Delta x^4}-0}{\Delta x}
+         = \lim_{\Delta x \to 0} \frac{\Delta x}{\Delta x}
+         = 1\]
+         \[ f_{xy}(0,0)= \lim_{\Delta y \to 0} \frac{f_x(0, \Delta y) - f_x(0,0)}{\Delta y}
+         = \frac{\frac{\Delta y(-\Delta y)^2\Delta y^2}{\Delta y^4}-0}{\Delta y}
+         = \frac{-\Delta y}{\Delta y}
+         = -1\]
      \subsection{79}
        \[T = \frac{PV}{nR}\]
        \[\frac{\partial T}{\partial P} = \frac{V}{nR}\]
