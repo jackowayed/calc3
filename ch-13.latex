@@ -103,9 +103,9 @@
      \subsection{19}
        \[ F(x,y,z) = x^2+y^2+z^2=25 \]
        \[ \frac{\partial z}{\partial x} = -\frac{F_x(x,y,z)}{F_z(x,y,z)}
-       = - \frac{2x}{2z}=\frac{x}{z}\]
+       = - \frac{2x}{2z}=\frac{-x}{z}\]
        \[ \frac{\partial z}{\partial y} = -\frac{F_y(x,y,z)}{F_z(x,y,z)}
-       = - \frac{2y}{2z}=\frac{y}{z}\]
+       = - \frac{2y}{2z}=\frac{-y}{z}\]
      \subsection{46}
        Show that $u(x,t)=\frac{1}{2}\left[f(x-ct)+f(x+ct)\right]$ is a solution to
        \[\frac{\partial^2u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}\]
