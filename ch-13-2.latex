@@ -1,0 +1,16 @@
+\documentclass[12pt]{article}
+\title{UD 243 CSW Chapter 13 Part 2}
+\date{Fall 2009}
+\author{Daniel Jackoway}
+\setcounter{secnumdepth}{0}
+\begin{document}
+  \maketitle
+  \section{section 6}
+    \subsection{51}
+      \[ T = \frac{x}{x^2+y^2} \]
+      Direction of greatest increase is given by $\nabla T$
+      \[ \nabla T = \langle \frac{(x^2+y^2)-2x^2}{(x^2+y^2)^2}, \frac{2xy}{(x^2+y^2)^2} \rangle 
+      = \langle \frac{y^2-x^2}{(x^2+y^2)^2}, \frac{2xy}{(x^2+y^2)^2} \rangle \]
+      \[ \left.\nabla T \right|_{(3,4)} = \langle \frac{7}{625}, \frac{24}{625} \rangle \]
+      %% finish
+\end{document}
